@@ -1,0 +1,14 @@
+{
+  "tool": "Build_ScriptArchive.R",
+  "version": 2,
+  "run_time": "2026-10-23_00-39-52",
+  "root_folder_name": "2026-02-23 Figures_v12,13",
+  "scrub_local_paths": true,
+  "scripts_with_local_path": 6,
+  "scripts_scrubbed": 6,
+  "scripts_found": 138,
+  "distinct_contents": 80,
+  "newly_copied": 80,
+  "already_in_archive": 0,
+  "r_version": "R version 4.5.2 (2025-10-31)"
+}
