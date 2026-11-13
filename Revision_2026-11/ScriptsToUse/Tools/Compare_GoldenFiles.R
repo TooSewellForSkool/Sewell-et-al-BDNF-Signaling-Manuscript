@@ -56,11 +56,11 @@
 #   folder named "2026-02-23 Figures_v12,13" (it contains "Figure 2 - PseudoBulk" etc.).
 #   Every published (OLD) file below is looked up inside it by its path in the manifest and
 #   checked by MD5 checksum, so the wrong file or folder is reported, never compared.
-GOLDEN_ROOT <- "/Users/jmsewell/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-02-23 Figures_v12,13"
+GOLDEN_ROOT <- ""
 # GOLDEN_STATS_FOLDER: the folder "GoldenData" that comes with these scripts (Tools/GoldenData). It holds the
 #   published p-values (made from Supplementary_Tables.xlsx) that run P1 is compared with. Its files are
 #   checked by MD5 checksum too.
-GOLDEN_STATS_FOLDER <- "/Users/jmsewell/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/ScriptsToUse/Tools/GoldenData"
+GOLDEN_STATS_FOLDER <- ""
 # NEW_RUNS: one folder per run you have made (the folder the script created inside the input folder,
 #   named <date_time>_<something>). Leave "" for runs you have not made. README_Analysis.txt lists
 #   exactly which script and settings each run needs; the tool checks them and says if a folder is wrong.
