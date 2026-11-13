@@ -1,0 +1,62 @@
+Set,ID,Label,Color,Note,CoPlotGroup
+Cluster,1,Progenitor,#76BAE9,primary maturation gradient,A_primary
+Cluster,7,Immature Neuron,#4B9BD9,primary maturation gradient,A_primary
+Cluster,2,Intermediate Neuron,#2F7CC0,primary maturation gradient,A_primary
+Cluster,13,Maturing Neuron,#12427F,primary maturation gradient,A_primary
+Cluster,4,Mature Neuron,#0A2A5C,primary maturation gradient,A_primary
+Cluster,12,Immature Neuron_Cl12,#004744,"neuronal maturity, dark->light (12 -> 11); reversed 2026-10-28 so the pale end sits next to the navy of 4/13 on the UMAP",B_neuronal_maturity
+Cluster,8,Maturing Neuron_Cl8,#00706B,"neuronal maturity, dark->light (12 -> 11); reversed 2026-10-28 so the pale end sits next to the navy of 4/13 on the UMAP",B_neuronal_maturity
+Cluster,6,Maturing Neuron_Cl6,#00A6A0,"neuronal maturity, dark->light (12 -> 11); reversed 2026-10-28 so the pale end sits next to the navy of 4/13 on the UMAP",B_neuronal_maturity
+Cluster,11,Intermediate Neuron_Cl11,#7DBAA4,"neuronal maturity, dark->light (12 -> 11); reversed 2026-10-28 so the pale end sits next to the navy of 4/13 on the UMAP",B_neuronal_maturity
+Cluster,15,Alternative Progenitor,#5FA64F,sub-gradient 15 -> 3,C_alt_progenitor
+Cluster,3,Fated Progenitor,#256713,sub-gradient 15 -> 3,C_alt_progenitor
+Cluster,9,Microglia_Laden,#872A29,"laden dark red, unladen orange",D_microglia
+Cluster,17,Microglia_Unladen,#E17938,"laden dark red, unladen orange",D_microglia
+Cluster,5,Unassigned_Cl5,#312E1D,"co-plotted set; retuned 2026-10-28 for neighbour contrast on the 3D UMAP (CVD-checked), no yellow",E_unassigned_astro
+Cluster,10,Unassigned_Cl10,#1C54DF,"co-plotted set; retuned 2026-10-28 for neighbour contrast on the 3D UMAP (CVD-checked), no yellow",E_unassigned_astro
+Cluster,14,Unassigned_Cl14,#705849,"co-plotted set; retuned 2026-10-28 for neighbour contrast on the 3D UMAP (CVD-checked), no yellow",E_unassigned_astro
+Cluster,16,Unassigned_Cl16,#895996,"co-plotted set; retuned 2026-10-28 for neighbour contrast on the 3D UMAP (CVD-checked), no yellow",E_unassigned_astro
+Cluster,18,Astrocyte,#F675E0,"co-plotted set; retuned 2026-10-28 for neighbour contrast on the 3D UMAP (CVD-checked), no yellow",E_unassigned_astro
+Cluster,19,Mature Neuron_Cl19,#9A5FD0,,F_mature_19
+Cluster,20,OPC/Oligodendrocyte,#C4895A,,G_OPC
+Treatment,NoTreat,NoTreat,#68838B,kept (lightblue4),Treatment
+Treatment,ContDepr,ContDepr,#30123B,kept,Treatment
+Treatment,CompMed,CompMed,#3BAF29,kept,Treatment
+Treatment,BDNF,BDNF,#B63679,kept,Treatment
+Treatment,BDNFTest,BDNFTest,#B63679,kept,Treatment
+Treatment,BDNF+K252aTest,BDNF+K252aTest,#FB8861,kept (magma orange),Treatment
+Category,11,p75-/TrkB-,#0072B2,"Okabe-Ito, no yellow",Category
+Category,14,p75-/TrkB+,#009E73,"Okabe-Ito, no yellow",Category
+Category,41,p75+/TrkB-,#D55E00,"Okabe-Ito, no yellow",Category
+Category,44,p75+/TrkB+,#CC79A7,"Okabe-Ito, no yellow",Category
+Tier,1,tier 1,#C9D6DF,sequential low -> high,Tier
+Tier,2,tier 2,#8FA9BC,sequential low -> high,Tier
+Tier,3,tier 3,#557C99,sequential low -> high,Tier
+Tier,4,tier 4,#1F4E6E,sequential low -> high,Tier
+Merge,S6_A,Fig S6 merge colour A,#00AEEF,"user-chosen, kept",Merge
+Merge,S6_B,Fig S6 merge colour B,#8000A3,"user-chosen, kept",Merge
+MergedGroup,1,Progenitor (merged group 1),#5FA8E0,merged-cluster tables: R1_Merge groups,MergedGroup
+MergedGroup,2,Neuronal (merged group 2),#00605B,,MergedGroup
+MergedGroup,3,NonNeuronal (merged group 3),#D55E00,,MergedGroup
+MergedGroup,4,Unknown (merged group 4),#7E766C,,MergedGroup
+SignalCluster,1,Signal cluster 1,#A63A7E,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,2,Signal cluster 2,#5ABFFF,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,3,Signal cluster 3,#795404,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,4,Signal cluster 4,#482FC2,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,5,Signal cluster 5,#B42F01,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,6,Signal cluster 6,#5B4EC5,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,7,Signal cluster 7,#97C01C,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,8,Signal cluster 8,#69A2D1,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,9,Signal cluster 9,#2A6A42,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,10,Signal cluster 10,#BD7501,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,11,Signal cluster 11,#A18AF7,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,12,Signal cluster 12,#9A6AF3,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,13,Signal cluster 13,#438DC9,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,14,Signal cluster 14,#702A01,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,15,Signal cluster 15,#950063,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,16,Signal cluster 16,#451EA1,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,17,Signal cluster 17,#FF8BF3,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,18,Signal cluster 18,#984C67,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,19,Signal cluster 19,#7671C3,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,20,Signal cluster 20,#F067A1,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
+SignalCluster,21,Signal cluster 21,#7E4FA3,ALTERNATIVE palette for the XY map of signal clusters (05.0.3 option SignalPalette); default there stays RColorBrewer 12 Paired. Layout round 2 group 1 (clusters 1-21),Signal
