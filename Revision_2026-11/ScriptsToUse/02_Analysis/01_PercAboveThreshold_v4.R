@@ -5,7 +5,7 @@
 # Author:   Jonathon Sewell (with Claude)
 # Created:  2026-10-23
 # Edited:   2026-10-27
-# Version:  3   (1 = NEW: replaces the table-making half of 10.1, 12.1 and 12.1.1;
+# Version:  4   (1 = NEW: replaces the table-making half of 10.1, 12.1 and 12.1.1;
 #                2 = optional expression categories (12.1.1 'ThreshCat' mode), optional Inf -> NA;
 #                3 = optional rows for sample/cluster combinations with no cells (12.1.1 Clusters mode),
 #                4 = optional MEASURE = "mean_expression" (mean of a marker per sample and cluster, as Fig 5F))
