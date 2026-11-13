@@ -104,16 +104,10 @@ REFERENCE_TIMEPOINT <- 0             # ... at this time point (hours)
 REFERENCE_SCOPE     <- "pooled"      # only for COMPARE_BY "Cluster"/"ThreshCat": "pooled" (published) or "matched"
 
 # Which part of the table is used (c() = everything in the table)
-TREATMENTS     <- c("NoTreat", "CompMed")           # e.g. c("NoTreat", "ContDepr", "CompMed", "BDNF")  (must include REFERENCE_TREATMENT)
+TREATMENTS     <- c()           # e.g. c("NoTreat", "ContDepr", "CompMed", "BDNF")  (must include REFERENCE_TREATMENT)
 CLUSTERS       <- c()           # e.g. c(1, 2, 4, 7, 13)
 CATEGORIES     <- c()           # e.g. c("22")   (only for tables made with expression categories)
-MARKERS        <- c("pERK_171Yb", "pAKt_168Er", "pCreb_176Lu", "pS6_175Lu", "pGSK3b_139La",
-                    "pPLK1_113In", "yH2AX_165Ho", "TrkB_s_158Gd",
-                    "pATM_159Tb", "pPLCG-2_144Nd", "pSrc_154Sm",
-                    "H3K9ac_115In", "p-p38_142Nd", "CC3_173Yb",
-                    "pSTAT3_153Eu", "pSTAT5_147Sm", "p-p53_151Eu",
-                    "p-cJUN_162Dy", "pNFKB_166Er", "pTrkB_170Er", 
-                    "p75NTR_161Dy", "TrkB_i_174Yb")           # e.g. c("pERK_171Yb", "pAKt_168Er", "TrkB_s_158Gd")   c() = every marker in the table
+MARKERS        <- c()           # e.g. c("pERK_171Yb", "pAKt_168Er", "TrkB_s_158Gd")   c() = every marker in the table
 
 # c("pERK_171Yb", "pAKt_168Er", "pCreb_176Lu", "pS6_175Lu", "pGSK3b_139La",
 #   "pPLK1_113In", "yH2AX_165Ho", "TrkB_s_158Gd",
@@ -125,7 +119,7 @@ MARKERS        <- c("pERK_171Yb", "pAKt_168Er", "pCreb_176Lu", "pS6_175Lu", "pGS
 
 
 
-OUTPUT_LABEL   <- "FigS5_onlySignalingMarkers"            # optional text added to the output folder name
+OUTPUT_LABEL   <- ""            # optional text added to the output folder name
 
 RUN_DIAGNOSTICS <- TRUE         # TRUE: also write Statistics_diagnostics.csv (normality / equal-spread checks)
 LITTER_MAP      <- ""           # "" = Litter_Map.csv in the ScriptsToUse/02_Analysis folder; or a full file path
