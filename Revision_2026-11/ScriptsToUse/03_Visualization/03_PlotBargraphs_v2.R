@@ -51,7 +51,7 @@ STATS_FOLDER   <- ""            # a folder made by 05_ConditionStatistics.R ("" 
 #   "q_BH_all_markers" Benjamini-Hochberg over all markers x pairs of the cluster/category
 P_COLUMN       <- "p_primary"
 
-MARKERS        <- c("pERK_171Yb", "pAKt_168Er", "pCreb_176Lu", "pS6_175Lu", "pGSK3b_139La")           
+MARKERS        <- c()           
 # e.g. c("pERK_171Yb", "pAKt_168Er", "pCreb_176Lu", "pS6_175Lu", "pGSK3b_139La"); c() = every marker in the statistics folder
 CLUSTERS       <- c()           # e.g. c(1, 2, 4, 3, 17, 18); c() = all (pseudobulk tables have none)
 CLUSTER_LABELS <- c()           # optional names for the panels, e.g. c("1" = "Neuronal", "2" = "Non-neuronal")
@@ -67,7 +67,7 @@ OUTPUT_FORMATS  <- c("pdf", "png")
 PNG_DPI         <- 300
 PANEL_COLUMNS   <- 1            # panels per row
 PANEL_SIZE_IN   <- 5            # width and height of one panel (inches)
-OUTPUT_LABEL    <- "Fig2B"           # optional text added to the output folder name
+OUTPUT_LABEL    <- ""           # optional text added to the output folder name
 
 #### Fixed names -- do not change (later scripts expect these) ##################
 SCRIPT_NAME              <- "03_PlotBargraphs.R"
