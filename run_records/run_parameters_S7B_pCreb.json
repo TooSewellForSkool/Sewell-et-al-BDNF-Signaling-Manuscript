@@ -1,0 +1,539 @@
+{
+  "Folder_Info": {
+    "Stage_Folder": "2026-10-29_22-43-51_Bargraphs_p_primary_FigS7B_pCreb",
+    "Parent_Folder": "2026-10-29_17-16-19_Conditions_welch-welch_holm_Fig3F",
+    "Parent_Path_Relative": "..",
+    "Last_Updated": "2026-10-29 22:43:54 EDT"
+  },
+  "01_PercAboveThreshold": {
+    "Script_Version": 4,
+    "Completed_At": "2026-10-29 15:46:41 EDT",
+    "INPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters",
+    "OUTPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/2026-10-29_15-46-41_PercAboveThresh_Clusters_5_E5CL",
+    "Input_Provenance": "no run record (legacy data)",
+    "Settings": {
+      "MEASURE": "percent_above",
+      "MEAN_SCALE": null,
+      "ANALYSIS_BY": "Clusters",
+      "CLUSTER_ROUND": 1,
+      "CLUSTERS_MERGED": false,
+      "Cluster_File": "cluster_R1_assigns.csv",
+      "SAMPLE_SET_COLUMN": "Expt",
+      "SAMPLE_SET": [
+        5
+      ],
+      "CONDITIONS_TO_EXCLUDE": [],
+      "CLUSTERS_TO_REMOVE": [],
+      "FILES_TO_EXCLUDE": [],
+      "THRESHOLD_PROB": 0.95,
+      "THRESHOLD_TIMEPOINT": 0,
+      "CTRL_PER_TIMEPOINT": false,
+      "NORM_CONDITIONS_Used": [
+        "NoTreat_0hr"
+      ],
+      "THRESHOLD_CATEGORY_FOLDER": "",
+      "CATEGORIES_TO_ANALYSE": [],
+      "LOG2FC_INF_AS_NA": true,
+      "FILL_EMPTY_CLUSTERS": false,
+      "Quantile_Type": "R default (type 7)",
+      "Back_Transform": "5 * sinh(x) on every Plot = 1 channel"
+    },
+    "Metadata_Mapping": {
+      "Label_Column": "Condition",
+      "Base_Treatment_Column": "Treatment",
+      "Reordered": "metadata.csv column Reordered"
+    },
+    "Baseline": {
+      "Conditions": [
+        "NoTreat_0hr"
+      ],
+      "Files": [
+        54,
+        55,
+        56
+      ]
+    },
+    "Samples_Analysed": [
+      "Sample004_normalized_BDNF_Test_1hr_1_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_BDNF_Test_1hr_2_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_BDNF_Test_1hr_3_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_BDNF+K252a_Test_1hr_1_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_BDNF+K252a_Test_1hr_2_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_BDNF+K252a_Test_1hr_3_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_Cont._Depr._Test_1hr_1_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_Cont._Depr._Test_1hr_2_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_Cont._Depr._Test_1hr_3_4_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_NoTreat_0hr_1_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_NoTreat_0hr_2_Cells_To_Analyze_157Gated_quantile.fcs",
+      "Sample004_normalized_NoTreat_0hr_3_Cells_To_Analyze_157Gated_quantile.fcs"
+    ],
+    "Cells_In_Folder": 680466,
+    "Cells_Analysed": 104777,
+    "Cells_Per_File": [
+      {
+        "File_Num": 45,
+        "Cells": 7292
+      },
+      {
+        "File_Num": 46,
+        "Cells": 8106
+      },
+      {
+        "File_Num": 47,
+        "Cells": 7556
+      },
+      {
+        "File_Num": 48,
+        "Cells": 8135
+      },
+      {
+        "File_Num": 49,
+        "Cells": 7864
+      },
+      {
+        "File_Num": 50,
+        "Cells": 7343
+      },
+      {
+        "File_Num": 51,
+        "Cells": 9532
+      },
+      {
+        "File_Num": 52,
+        "Cells": 9821
+      },
+      {
+        "File_Num": 53,
+        "Cells": 10619
+      },
+      {
+        "File_Num": 54,
+        "Cells": 7399
+      },
+      {
+        "File_Num": 55,
+        "Cells": 8243
+      },
+      {
+        "File_Num": 56,
+        "Cells": 12867
+      }
+    ],
+    "Clusters_Analysed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "Baseline_Counts": [
+      {
+        "Cluster": 9,
+        "Category": null,
+        "Files": 3,
+        "Cells": 2340
+      },
+      {
+        "Cluster": 2,
+        "Category": null,
+        "Files": 3,
+        "Cells": 2393
+      },
+      {
+        "Cluster": 12,
+        "Category": null,
+        "Files": 3,
+        "Cells": 1862
+      },
+      {
+        "Cluster": 8,
+        "Category": null,
+        "Files": 3,
+        "Cells": 2181
+      },
+      {
+        "Cluster": 7,
+        "Category": null,
+        "Files": 3,
+        "Cells": 2339
+      },
+      {
+        "Cluster": 3,
+        "Category": null,
+        "Files": 3,
+        "Cells": 2817
+      },
+      {
+        "Cluster": 6,
+        "Category": null,
+        "Files": 3,
+        "Cells": 1909
+      },
+      {
+        "Cluster": 13,
+        "Category": null,
+        "Files": 3,
+        "Cells": 1181
+      },
+      {
+        "Cluster": 10,
+        "Category": null,
+        "Files": 3,
+        "Cells": 1674
+      },
+      {
+        "Cluster": 5,
+        "Category": null,
+        "Files": 3,
+        "Cells": 1668
+      },
+      {
+        "Cluster": 4,
+        "Category": null,
+        "Files": 3,
+        "Cells": 1636
+      },
+      {
+        "Cluster": 11,
+        "Category": null,
+        "Files": 3,
+        "Cells": 1632
+      },
+      {
+        "Cluster": 1,
+        "Category": null,
+        "Files": 3,
+        "Cells": 3199
+      },
+      {
+        "Cluster": 17,
+        "Category": null,
+        "Files": 3,
+        "Cells": 185
+      },
+      {
+        "Cluster": 14,
+        "Category": null,
+        "Files": 3,
+        "Cells": 656
+      },
+      {
+        "Cluster": 18,
+        "Category": null,
+        "Files": 3,
+        "Cells": 154
+      },
+      {
+        "Cluster": 15,
+        "Category": null,
+        "Files": 3,
+        "Cells": 365
+      },
+      {
+        "Cluster": 19,
+        "Category": null,
+        "Files": 3,
+        "Cells": 10
+      },
+      {
+        "Cluster": 16,
+        "Category": null,
+        "Files": 3,
+        "Cells": 303
+      },
+      {
+        "Cluster": 20,
+        "Category": null,
+        "Files": 3,
+        "Cells": 5
+      }
+    ],
+    "Filled_Empty_Rows": 0,
+    "Categories": {
+      "Used": false
+    },
+    "Empty_Combinations": [
+      {
+        "File_Num": 45,
+        "Cluster": 19,
+        "Category": null
+      },
+      {
+        "File_Num": 45,
+        "Cluster": 20,
+        "Category": null
+      },
+      {
+        "File_Num": 46,
+        "Cluster": 20,
+        "Category": null
+      },
+      {
+        "File_Num": 48,
+        "Cluster": 20,
+        "Category": null
+      },
+      {
+        "File_Num": 49,
+        "Cluster": 19,
+        "Category": null
+      },
+      {
+        "File_Num": 50,
+        "Cluster": 19,
+        "Category": null
+      },
+      {
+        "File_Num": 51,
+        "Cluster": 19,
+        "Category": null
+      },
+      {
+        "File_Num": 51,
+        "Cluster": 20,
+        "Category": null
+      },
+      {
+        "File_Num": 52,
+        "Cluster": 20,
+        "Category": null
+      },
+      {
+        "File_Num": 53,
+        "Cluster": 20,
+        "Category": null
+      }
+    ],
+    "Markers_All": [
+      "Tuj1_89Y",
+      "pPLK1_113In",
+      "H3K9ac_115In",
+      "pGSK3b_139La",
+      "CXC3CR1_141Pr",
+      "p-p38_142Nd",
+      "Vimentin_143Nd",
+      "pPLCG-2_144Nd",
+      "OligoO4_145Nd",
+      "s100b_146Nd",
+      "pSTAT5_147Sm",
+      "HB9_148Nd",
+      "CGRP_149Sm",
+      "NeuN_150Nd",
+      "p-p53_151Eu",
+      "CHAT_152Sm",
+      "pSTAT3_153Eu",
+      "pSrc_154Sm",
+      "nNOS_155Gd",
+      "TrkB_s_158Gd",
+      "pATM_159Tb",
+      "Sox2_160Gd",
+      "p75NTR_161Dy",
+      "p-cJUN_162Dy",
+      "DCX_163Dy",
+      "MAP2_164Dy",
+      "yH2AX_165Ho",
+      "pNFKB_166Er",
+      "Islet1_167Er",
+      "pAKt_168Er",
+      "GFAP_169Tm",
+      "pTrkB_170Er",
+      "pERK_171Yb",
+      "BLBP_172Yb",
+      "CC3_173Yb",
+      "TrkB_i_174Yb",
+      "pS6_175Lu",
+      "pCreb_176Lu",
+      "DNA_191Ir",
+      "DNA_193Ir"
+    ],
+    "Markers_Derived_Tables": [
+      "pPLK1_113In",
+      "H3K9ac_115In",
+      "pGSK3b_139La",
+      "p-p38_142Nd",
+      "pPLCG-2_144Nd",
+      "pSTAT5_147Sm",
+      "p-p53_151Eu",
+      "pSTAT3_153Eu",
+      "pSrc_154Sm",
+      "TrkB_s_158Gd",
+      "pATM_159Tb",
+      "p75NTR_161Dy",
+      "p-cJUN_162Dy",
+      "yH2AX_165Ho",
+      "pNFKB_166Er",
+      "pAKt_168Er",
+      "pTrkB_170Er",
+      "pERK_171Yb",
+      "CC3_173Yb",
+      "TrkB_i_174Yb",
+      "pS6_175Lu",
+      "pCreb_176Lu"
+    ],
+    "Markers_Derived_Rule": "published rule (A4)",
+    "Files_Removed_From_Tables": [],
+    "Random_Seed": "not used in this script",
+    "Warnings": [
+      "No run_parameters.json in the input folder: treated as data made before the run records existed (e.g. the published dataset). Provenance cannot be checked.",
+      "231 log2 fold-change value(s) are -Inf (0 % above threshold in a sample). They were set to NA before averaging replicates (LOG2FC_INF_AS_NA, as 12.1.1).",
+      "10 sample/cluster combination(s) have no cells and no row (see run record): 45/19, 45/20, 46/20, 48/20, 49/19, 50/19, ..."
+    ],
+    "Output_MD5": {
+      "Expt5_PercAboveThresh_95thPerc_RAWvalues.csv": "9b6646cbc4375fc9d1940b5b08bba2dc",
+      "Expt5_PercAboveThresh_95thPerc_RAWvalues_RepsAvg.csv": "ff61286f21c947494dbd77cdad8d3629",
+      "Expt5_PercAboveThresh_95thPerc_FC.csv": "32cdcdd41baa9fa6eab0562ba3131b2a",
+      "Expt5_PercAboveThresh_95thPerc_FC_RepsAvg.csv": "c0512b027067461738a5b0d61e725fcc",
+      "Expt5_PercAboveThresh_95thPerc_log2FC.csv": "039dd74cfe0f98bc51efa6ce7a9e6566",
+      "Expt5_PercAboveThresh_95thPerc_log2FC_RepsAvg.csv": "fca845f0ca0382a8b57e5def4a8c3af2",
+      "Thresholds.csv": "bb34d5a8dd59638cd4738d06e78fa566"
+    },
+    "Session": {
+      "R_Version": "R version 4.5.2 (2025-10-31)",
+      "Platform": "x86_64-apple-darwin20",
+      "OS": "macOS Sequoia 15.7.9",
+      "Collation_Locale": "en_US.UTF-8",
+      "Package_Versions": {
+        "data.table": "1.18.4",
+        "jsonlite": "2.0.0"
+      }
+    }
+  },
+  "05_ConditionStatistics": {
+    "Script_Version": 2,
+    "Completed_At": "2026-10-29 17:16:19 EDT",
+    "INPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/2026-10-29_15-46-41_PercAboveThresh_Clusters_5_E5CL",
+    "OUTPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/2026-10-29_15-46-41_PercAboveThresh_Clusters_5_E5CL/2026-10-29_17-16-19_Conditions_welch-welch_holm_Fig3F",
+    "Settings": {
+      "CONDITIONS": [
+        "ContDepr",
+        "BDNFTest",
+        "BDNF+K252aTest"
+      ],
+      "CLUSTERS": [
+        "1",
+        "2",
+        "4",
+        "3",
+        "17",
+        "18"
+      ],
+      "MARKERS": [],
+      "OMNIBUS": "welch",
+      "POSTHOC": "welch_holm",
+      "VAR_RATIO_LIMIT": 3,
+      "Pairs": [
+        "ContDepr vs BDNFTest",
+        "ContDepr vs BDNF+K252aTest",
+        "BDNFTest vs BDNF+K252aTest"
+      ],
+      "Primary_Family": "the 3 pairs of one marker in one cluster/category (default: Welch t-tests + Holm for every marker; Tukey in p_Tukey)",
+      "Alternative_Family": "Benjamini-Hochberg over all markers x pairs of one cluster/category, on p_unadjusted"
+    },
+    "Input_Table": "Expt5_PercAboveThresh_95thPerc_FC.csv",
+    "Input_Table_MD5": "32cdcdd41baa9fa6eab0562ba3131b2a",
+    "Input_Provenance": "run record present",
+    "Families_Analysed": 132,
+    "Comparisons": 396,
+    "Comparisons_NA": 0,
+    "Significant_Tukey": 105,
+    "Significant_Unadjusted": 101,
+    "Significant_Primary": 64,
+    "Significant_BH_All_Markers": 31,
+    "Suggested_Mode_Counts": {
+      "classic": 19,
+      "welch": 113
+    },
+    "Random_Seed": "not used (no random numbers in this script)",
+    "Warnings": [],
+    "Output_MD5": {
+      "Conditions_long.csv": "d6f7cce1ba30e5de10ed07d3897ee743",
+      "Conditions_families.csv": "0350073b1f57a12ed1baa0ce0aa945dc",
+      "Conditions_groupstats.csv": "961b4d7226e19a63700d96fa7041ce47",
+      "Conditions_input_values.csv": "716ad0b5cad54c6fb0fd85ee57c6f9f3"
+    },
+    "Session": {
+      "R_Version": "R version 4.5.2 (2025-10-31)",
+      "Platform": "x86_64-apple-darwin20",
+      "OS": "macOS Sequoia 15.7.9",
+      "Collation_Locale": "en_US.UTF-8",
+      "Package_Versions": {
+        "data.table": "1.18.4",
+        "jsonlite": "2.0.0"
+      }
+    }
+  },
+  "03_PlotBargraphs": {
+    "Script_Version": "2",
+    "Completed_At": "2026-10-29 22:43:54 EDT",
+    "INPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/2026-10-29_15-46-41_PercAboveThresh_Clusters_5_E5CL/2026-10-29_17-16-19_Conditions_welch-welch_holm_Fig3F",
+    "OUTPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/2026-10-29_15-46-41_PercAboveThresh_Clusters_5_E5CL/2026-10-29_17-16-19_Conditions_welch-welch_holm_Fig3F/2026-10-29_22-43-51_Bargraphs_p_primary_FigS7B_pCreb",
+    "Settings": {
+      "P_COLUMN": "p_primary",
+      "MARKERS": [
+        "pCreb_176Lu"
+      ],
+      "CLUSTERS": [
+        "1",
+        "2",
+        "4",
+        "3",
+        "17",
+        "18"
+      ],
+      "MIN_N_FOR_STARS": 3,
+      "SHOW_NS": true,
+      "STEP_INCREASE": 0.15,
+      "COLOR_OPTION": "C",
+      "OUTPUT_FORMATS": [
+        "pdf",
+        "png"
+      ],
+      "PNG_DPI": 300,
+      "PANEL_COLUMNS": 6,
+      "PANEL_SIZE_IN": 5
+    },
+    "Statistics_Folder": "2026-10-29_17-16-19_Conditions_welch-welch_holm_Fig3F",
+    "Panels": 6,
+    "Figures": 1,
+    "Starred_Comparisons": 6,
+    "Legend_Text": "Bars show the mean and error bars the SD of the samples in each condition; dots are individual samples (n = 3 per condition). Brackets compare conditions; stars give p-values adjusted for the three pairwise comparisons of each marker (Welch's unpaired two-sided t-tests with Holm adjustment): * p < 0.05, ** < 0.01, *** < 0.001; ns = not significant. Every p-value of every drawn comparison (unadjusted, Holm, BH and the one drawn) is listed in Plotted_data.csv.",
+    "PNG_Device": "ragg::agg_png",
+    "Random_Seed": "not used in this script",
+    "Warnings": [],
+    "Output_MD5": {
+      "BarPlot_Clusters_1-2-4-3-17-18_pCreb-Grid.pdf": "b74fb47e079a9060dd543c62f671c146",
+      "BarPlot_Clusters_1-2-4-3-17-18_pCreb-Grid.png": "75202e2da9874226566a9174360f51f6",
+      "Plotted_data.csv": "a33b7dd8942dbd5410a5db39ce4fdd52",
+      "Figure_legend.txt": "9ecc3338f2dab4baa430aecbd4a294ea"
+    },
+    "Session": {
+      "R_Version": "R version 4.5.2 (2025-10-31)",
+      "Platform": "x86_64-apple-darwin20",
+      "OS": "macOS Sequoia 15.7.9",
+      "Collation_Locale": "en_US.UTF-8",
+      "Package_Versions": {
+        "data.table": "1.18.4",
+        "jsonlite": "2.0.0",
+        "ggplot2": "4.0.3",
+        "ggsignif": "0.6.4",
+        "gridExtra": "2.3",
+        "viridis": "0.6.5"
+      }
+    }
+  }
+}

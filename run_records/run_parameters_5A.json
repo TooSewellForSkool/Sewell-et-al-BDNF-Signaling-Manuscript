@@ -1,0 +1,105 @@
+{
+  "Folder_Info": {
+    "Stage_Folder": "2026-10-29_22-48-05_CategoryHistograms_Fig5A",
+    "Parent_Folder": "2026-10-29_15-48-58_ThreshCat_TrkB_i_174Yb-Gr0.15-Gr1.4-Gr3.7",
+    "Parent_Path_Relative": "../2026-10-29_15-48-58_ThreshCat_TrkB_i_174Yb-Gr0.15-Gr1.4-Gr3.7",
+    "Last_Updated": "2026-10-29 22:48:06 EDT"
+  },
+  "02_AssignThresholdCategories": {
+    "Script_Version": 2,
+    "Completed_At": "2026-10-29 15:48:58 EDT",
+    "INPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters",
+    "OUTPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/2026-10-29_15-48-58_ThreshCat_TrkB_i_174Yb-Gr0.15-Gr1.4-Gr3.7",
+    "Input_Provenance": "no run record (legacy data)",
+    "Settings": {
+      "SELECTED_MARKERS": {
+        "x": "TrkB_i_174Yb"
+      },
+      "CUTS_BY_QUANTILE": false,
+      "CUT_QUANTILES": [],
+      "Cut_Values_Used": {
+        "x": [
+          0.15,
+          1.4,
+          3.7
+        ]
+      },
+      "CUTS_JUSTIFIED": true,
+      "CUT_SHIFT": 0,
+      "Rule": "level = 1 + number of cut values <= the cell's value (a cell on a cut goes to the higher level)"
+    },
+    "Cells": 680466,
+    "Marker_Files": {
+      "x": "expression_matrix_analysis.csv"
+    },
+    "Category_Cells": {
+      "1": 59672,
+      "2": 327383,
+      "3": 267487,
+      "4": 25924
+    },
+    "Random_Seed": "not used in this script",
+    "Warnings": [
+      "No run_parameters.json in the input folder: treated as data made before the run records existed (e.g. the published dataset). Provenance cannot be checked."
+    ],
+    "Output_MD5": {
+      "ThresholdCategory.csv": "802760a4b953bb34f8261b1e02cc3eef",
+      "Category_Definitions.csv": "6981f9c987bb710b0e5836e82069176b",
+      "Category_Percentages.csv": "4a386a4df5a0632ba012d3285cd2c479",
+      "Histogram_Data.csv": "88f456bf3c2ba3d3ec0611eaefe2d987",
+      "Category_Cells_By_File.csv": "f4e425ee41d1c81d3b927ee90cbb6f9a"
+    },
+    "Session": {
+      "R_Version": "R version 4.5.2 (2025-10-31)",
+      "Platform": "x86_64-apple-darwin20",
+      "OS": "macOS Sequoia 15.7.9",
+      "Collation_Locale": "en_US.UTF-8",
+      "Package_Versions": {
+        "data.table": "1.18.4",
+        "jsonlite": "2.0.0"
+      }
+    }
+  },
+  "04_PlotCategoryHistograms": {
+    "Script_Version": "1.1",
+    "Completed_At": "2026-10-29 22:48:06 EDT",
+    "INPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/2026-10-29_15-48-58_ThreshCat_TrkB_i_174Yb-Gr0.15-Gr1.4-Gr3.7",
+    "OUTPUT_FOLDER": "~/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/2026-10-29_22-48-05_CategoryHistograms_Fig5A",
+    "Settings": {
+      "SCALE_NOTE": "arcsinh(x / 5)",
+      "LEVEL_NAMES": [],
+      "OUTPUT_FORMATS": [
+        "pdf",
+        "png"
+      ],
+      "PNG_DPI": 300,
+      "PANEL_WIDTH_IN": 6,
+      "PANEL_HEIGHT_IN": 4
+    },
+    "Category_Folder": "2026-10-29_15-48-58_ThreshCat_TrkB_i_174Yb-Gr0.15-Gr1.4-Gr3.7",
+    "Cut_Shift_In_Category_Run": "0",
+    "Cells": 680466,
+    "Legend_Text": "Distribution of TrkB_i_174Yb in all 680,466 analysed cells (all treatments and time points; arcsinh(x / 5) values after batch correction). Dashed lines mark the cut values that define the expression levels (TrkB_i_174Yb at 0.15, 1.4, 3.7; user-defined values). A cell exactly on a cut value is assigned to the higher level. Labels give each level and the percent of all cells in it.",
+    "Random_Seed": "not used in this script",
+    "Warnings": [],
+    "Output_MD5": {
+      "CategoryHistograms.pdf": "bb2619384dbda9de931caeb740fad840",
+      "CategoryHistograms.png": "52bd16025c3596e9b0e8df9940cd5363",
+      "Plotted_data.csv": "1485f97b6799f461f926dcd729bfdfbf",
+      "Plotted_levels.csv": "d085c3a78edd9d83ed44a5b2294aeb6c",
+      "Figure_legend.txt": "045990c8eb1233fc42bca1a7f5719b21"
+    },
+    "Session": {
+      "R_Version": "R version 4.5.2 (2025-10-31)",
+      "Platform": "x86_64-apple-darwin20",
+      "OS": "macOS Sequoia 15.7.9",
+      "Collation_Locale": "en_US.UTF-8",
+      "Package_Versions": {
+        "data.table": "1.18.4",
+        "jsonlite": "2.0.0",
+        "ggplot2": "4.0.3",
+        "gridExtra": "2.3"
+      }
+    }
+  }
+}
