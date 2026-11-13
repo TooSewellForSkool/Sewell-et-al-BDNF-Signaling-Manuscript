@@ -24,8 +24,8 @@
 ################################################################################
 
 #### USER SETTINGS -- edit this section only ###################################
-ROOT_FOLDER <- "/Users/jmsewell/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory"     # folder that contains the run folders (searched in all sub-folders); "" = choose
-INDEX_FILE  <- "/Users/jmsewell/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/ScriptsToUse/Tools/Panel_Run_Index.csv"     # Panel_Run_Index.csv; "" = choose
+ROOT_FOLDER <- ""     # folder that contains the run folders (searched in all sub-folders); "" = choose
+INDEX_FILE  <- ""     # Panel_Run_Index.csv; "" = choose
 
 #### Setup #####################################################################
 if (!requireNamespace("jsonlite", quietly = TRUE)) stop("Please install the package jsonlite first.", call. = FALSE)
