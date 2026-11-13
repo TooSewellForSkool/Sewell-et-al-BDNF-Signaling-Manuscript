@@ -20,9 +20,9 @@ Set_to_Modify <- "Cluster"
 ID_to_Modify <- seq(20)
 
 ## Define the Palette Directories were the csv will be read and modified
-pallette_file_WD <- "/Users/jmsewell/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/CellsToAnalyze_157Gated/2026-10-29 Working Directory/A. Cell ID Clusters/Palette_Colors.csv"
+pallette_file_WD <- ""
 
-pallette_file_Helper <- "/Users/jmsewell/Documents/BIMS Stuff/Lab Work/Experiments/Mass Cytometry_Temp/2025-05-13 BDNF_Rescue_FullSampleSet/2026-09-15 Figures_Revisions_v1/ScriptsToUse/Helpers/Palette_Colors.csv"
+pallette_file_Helper <- ""
 
 ## Published palette
 my_colors_pub <- rainbow(20, alpha = 1)
