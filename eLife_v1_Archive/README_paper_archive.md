@@ -13,5 +13,5 @@ experimental versions, so that every panel can be traced to the code that produc
 Scripts were copied byte-for-byte except that your computer's folder names were removed from file paths inside the code
 (index columns `had_local_path` and `path_scrubbed`; `md5` is the original file's checksum, `archive_md5` is the archived file's).
 
-The cleaned, documented pipeline is in the numbered folders at the top level of this repository.
+The original pipeline is in the numbered folders (00, 01, 02) at the top level of this repository.
 These archived copies are for provenance, not for new analyses.
