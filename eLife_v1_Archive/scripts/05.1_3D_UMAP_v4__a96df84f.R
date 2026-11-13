@@ -79,9 +79,6 @@ library(circlize)
   #                   7, 13, # Misc. Glia
   #                   3, 9) # Unknown
   # See "2025-08-12_cluster_R1_groups_JMS.csv" and "2025-08-12 Microsoft Copilot Discussion_Cluster ID.docx"
-  # Directory: '~/Desktop/2025-05-13 BDNF_Rescue_FullSampleSet/2.2 Analysis_V3 (157Gd Gated_V2_Un-compensated)/
-  # 4.1.0 Gated_157GdRemoved_BatchCorrection_2025-05-21/4.1 AllFiles_2025-05-21/quantile/2025-07-29 Separate Timepoints for clustering/
-  # N. 0-16hr_SpecificitySamples'
   # c() if ClusterOrder is to go un-defined
 
 ## Metadata choices
